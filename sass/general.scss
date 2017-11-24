@@ -6,7 +6,7 @@ $black: #111;
 $main-green:rgba(39,144,105,0.95); //Plum
 $hover-light: yellow; //Maroon
 $colorlogo:yellow;
-
+  
 // Base Styles
 body {
   background-color: $white;
@@ -202,3 +202,50 @@ nav {
   img {
     z-index: 0;
   }
+
+  #o_meni {
+  .o_meni{
+    padding-bottom: 30px;
+  }
+  h3, h4{
+    text-align: center;
+    font-family: "Ubuntu Mono",sans-serif;
+  }
+  h4 {
+    font-size: 2em;
+    background-color:rgba(39,144,105,0.3);
+    line-height: 2em;
+  }
+  p {
+    font-size: 1.5em;
+    font-family:'Roboto Mono', sans-serif;
+  }
+}
+@media only screen and  (min-width: 767px) 
+  and (min-height: 420px) {
+  #o_meni .text{
+    padding:0 60px;
+
+  }
+
+}
+@media only screen and (max-width: 1200px) {
+  #o_meni {
+  .o_meni{
+    padding-bottom: 20px;
+    }
+  h3, h4{
+    text-align: center;
+    font-family: "Ubuntu Mono",sans-serif;
+    }
+  h4 {
+    font-size: 1.5em;
+    background-color:rgba(39,144,105,0.3);
+    line-height: 1.5em;
+  }
+  p {
+    font-size: 1.2em;
+    font-family:'Roboto Mono', sans-serif;
+  }
+}
+}
